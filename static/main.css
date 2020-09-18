@@ -1,12 +1,15 @@
 /***** Portfolio *****/
- 
+
+
 #banner {
-    background-image: url('../images/map.jpg');
-    background-size: cover;
-	color: ghostwhite;
-	              font-weight:bold;
-              font-size:26px;
-} 
+    height: 100vh;
+    background-image: url('../images/banner.png');
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+   }
+
+   
 h1{
 	color: ghostwhite;
 	font-weight: bolder;
@@ -23,9 +26,9 @@ h1{
 }
 */
 
-.footer{
+/* .footer{
 	
-}
+} */
 /*
  #headline1 {
       background-image: url(images/newsletter_headline1.gif);
@@ -44,9 +47,9 @@ h1{
     background-size: 100% 100%;
 } 
 */
-
-/* .jumbotron jumbotron{
-    background-image: url(‘path/image.jpg’);
+/* 
+.jumbotron jumbotron{
+    background-image: url('../images/banner.png';)
     background-size: cover;
     background-repeat: no-repeat;
    } */

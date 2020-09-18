@@ -31,30 +31,30 @@
 
   <!----End of Head section ---- Beginning of body-->
   <body>
-	  
-<!--jumbotron-->
-<!--    <div class="jumbotron jumbotron-fluid" style="background: url(images/map.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;>-->
-<div class="jumbotron jumbotron-fluid" id ="banner">
+	<!-- <div class="container-fluid"> -->
+		<!--jumbotron-->
+		<!--    <div class="jumbotron jumbotron-fluid" style="background: url(images/map.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;>-->
+	  <div class="sticky-top" >
+		  
+			<!-- <h1 class="display-4">Every business needs a compass</h1> -->
+			<img src="images/banner.png" alt="" class="img-fluid">
+			<p ></p>
+			
+		</div> <!----ending div for jumbotron--->
 
-  <div class="container">
-    <h1 class="display-4">Every business needs a compass</h1>
-     <p ></p>
-  </div>
-</div> <!----ending div for jumbotron--->
-
-  <!---- encapsulating entire page in a div-->
+		<!---- encapsulating entire page in a div-->
  <div class = 'container topLevel'>
 	 
   
    
    <!-- About us -->
-<div class="about-us-container section-container section-container-gray-bg">
+<div class="about-us-container section-container">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-lg-7 about-us-box wow fadeInLeft">
 				<div class="about-us-box-text">
 					<h3>Every Business Needs a Compass, let data lead the way.</h3>
-					<div class="divider-1 wow fadeInUp"><span></span><span></span></div> <!--- create space-->
+					<div class="divider-1 wow fadeInUp"><span></span></div> <!--- create space-->
 					<p class="medium-paragraph">
 						Data Professional and entrepreneur looking to apply my knowledge and expertise to maximize scalability. 
 						Experienced in Excel, VBA, Python to analyze large data sets and raw data to streamline the decision-making process. 
@@ -71,7 +71,7 @@
 			<!--- div for profile photo --->
 			<div class="col-12 col-lg-5 about-us-box wow fadeInUp">
 					<div class="about-us-box-img">
-						<img src="images/profileRound.png" alt="about">
+						<img src="images/profileRound.png" class="img-fluid" alt="about">
 					</div>
 			</div>
        </div> <!--- ending div for profile section (row) --->
@@ -95,7 +95,63 @@
 			<p> Below is a sampling of some recent projects. The pictures link to an interactive visualization and the code is posted on Github.</p>
 		</div>
 	</div>
+
+	<!-- PORTFOLIO AREA FOR FIRST THREE  (1, 2, 3) -->
+	<div class="row"> <!--- beginning of portfolio project display boxes -->
+		<div class="col-md-4 portfolio-box wow fadeInUp">
+
+			<!-------------Cash for Covid PPP pipeline -->
+			<div class="portfolio-box-image">
+					<a href="https://sherirosalia.github.io/cash_for_covid_clean_machine_pipeline/"><img src="images/earthquakes.png"></a>
+			</div>
+			<h3><a href="https://sherirosalia.github.io/cash_for_covid_clean_machine_pipeline/">Cash for COVID</a> <i class="fas fa-angle-right"></i></h3>
+		 	<div class="portfolio-box-date"><i class="far fa-calendar"></i> August 2020</div>
+				<p>E.T.L. / pipeline project that extracts, transforms and loads over 50 
+					datasets released under the "Paycheck Protection Program" by the Small Business Association 
+					and made publically available by the U.S. Treasury Department. </p>
+        </div> <!---ending div for PPP  -->
+
 			
+			
+                <!--------------- Massage Investigation  -->
+		<div class="col-md-4 portfolio-box wow fadeInDown">
+			<div class="portfolio-box-image">
+					<div class="portfolio-box-image">
+							<a href="https://sherirosalia.github.io/Legal-or-Illicit-/"><img src="images/bacteria.png" alt="" data-at2x="images/bacteria.png"></a>
+					</div>
+			</div>
+
+
+			<h3><a href="https://sherirosalia.github.io/Legal-or-Illicit-/">Investigation of Massage Industry</a> <i class="fas fa-angle-right"></i></h3>
+			<div class="portfolio-box-date"><i class="far fa-calendar"></i>April 2020</div>
+			<p>Forensic analysis of the 
+				San Diego, California massage industry with data from disparate sources.
+			</p>
+		</div> <!---ending div for Illicit massage -->
+
+		<!----------------- Chrome browser extension -->
+		<div class="col-md-4 portfolio-box wow fadeInUp">
+			<div class="portfolio-box-image">
+					<a href= "https://github.com/sherirosalia/chrome-extension-grub-or-grubby"> <img src="images/citibike.png" alt="" data-at2x="images/citibike.png"></a>
+			</div>
+			
+			<h3><a href="https://github.com/sherirosalia/chrome-extension-grub-or-grubby">Google Chrome Extension</a> <i class="fas fa-angle-right"></i></h3>
+			
+			<div class="portfolio-box-date"><i class="far fa-calendar"></i> June 2020</div>
+			
+			<p>Chrome browser extension to display restaurant violation information from Los Angeles on Yelp review page.</p>
+			
+		</div> <!---ending div for extension  -->
+
+
+
+		
+        
+	 </div> <!---ending div -- FIRST SECTION Portfolio section box displays --row  -->
+
+
+
+	 <!-- PORTFOLIO AREA FOR SECOND THREE  (4, 5, 6) -->
 	<div class="row"> <!--- beginning of portfolio project display boxes -->
 		<div class="col-md-4 portfolio-box wow fadeInUp">
 
@@ -142,9 +198,75 @@
 			
 		</div> <!---ending div for citibike -->
         
-	 </div> <!---ending div -- Portfolio section box displays --row  -->
+	 </div> <!---ending div -- Portfolio section box displays --row END OF SECTION TWO  -->
+
+
+
+	 	<!-- PORTFOLIO AREA FOR THIRD THREE  (7, 8, 9) -->
+	<div class="row"> <!--- beginning of portfolio project display boxes -->
+		<div class="col-md-4 portfolio-box wow fadeInUp">
+
+			<!-------------Cash for Covid PPP pipeline -->
+			<div class="portfolio-box-image">
+					<a href="https://sherirosalia.github.io/Geomapping/"><img src="images/earthquakes.png"></a>
+			</div>
+			<h3><a href="https://sherirosalia.github.io/Geomapping/">Geomapping</a> <i class="fas fa-angle-right"></i></h3>
+		 	<div class="portfolio-box-date"><i class="far fa-calendar"></i> February 2019</div>
+				<p> Earthquake data from the US government 
+				retrieved via API and used javascript related modules such as leaflet and D3 to create an interactive map that visualizes earthquakes that have occured over the last 10 days. Deployed on Github Pages. </p>
+        </div> <!---ending div for PPP  -->
+
+			
+			
+                <!--------------- Massage Investigation  -->
+		<div class="col-md-4 portfolio-box wow fadeInDown">
+			<div class="portfolio-box-image">
+					<div class="portfolio-box-image">
+							<a href="https://tots-an-app.herokuapp.com"><img src="images/bacteria.png" alt="" data-at2x="images/bacteria.png"></a>
+					</div>
+			</div>
+
+
+			<h3><a href="https://tots-an-app.herokuapp.com">Bacterial Biodiversity</a> <i class="fas fa-angle-right"></i></h3>
+			<div class="portfolio-box-date"><i class="far fa-calendar"></i> April 2019</div>
+			<p>Interactive website deployed on heroku that uses python and flask to retrieve data from a RMDS database.
+			Additional modalities were combined in this project including sqlite, javascript, html and css.
+				 </p>
+		</div> <!---ending div for Illicit massage -->
+
+		<!----------------- Chrome browser extension -->
+		<div class="col-md-4 portfolio-box wow fadeInUp">
+			<div class="portfolio-box-image">
+					<a href= "https://public.tableau.com/profile/cerejarosinha#!/vizhome/Citibike-in_the_City/Dashboard1?publish=yes"> <img src="images/citibike.png" alt="" data-at2x="images/citibike.png"></a>
+			</div>
+			
+			<h3><a href="https://public.tableau.com/profile/cerejarosinha#!/vizhome/Citibike-in_the_City/Dashboard1?publish=yes">Citibike Data Analysis</a> <i class="fas fa-angle-right"></i></h3>
+			
+			<div class="portfolio-box-date"><i class="far fa-calendar"></i> March 2019</div>
+			
+			<p> NYC government data retrieved by automating a browser with Python and Beautiful Soup 
+				to download csv files, and used Tableau for cleaning and visualization.</p>
+			
+		</div> <!---ending div for extension  -->
+
+
+
+		
+        
+	 </div> <!---ending div -- FIRST SECTION Portfolio section box displays --row   END OF SECTION 3-->
+
+
+
+
+
+
    </div> <!---ending div container-- main Portfolio section - container  -->
  </div> <!---ending div second container-- Portfolio  -->
+
+
+
+
+
 </div> <!---ending div container-- main Portfolio section - container  -->
 	
 	
@@ -219,7 +341,7 @@
   </div>
 </div>
 <!-- End carousel row -->
-	 
+</div>	   
 	 	
 
     <!-- Footer-->
